@@ -1,0 +1,12 @@
+{
+  // https://code.visualstudio.com/docs/languages/jsconfig
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "components/*": ["./src/components/*"],
+      "layouts/*": ["./src/layouts/*"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
